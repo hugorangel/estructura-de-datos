@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"npx tsc --noEmit --skipLibCheck src/features/heap/*.ts src/features/heap/*.tsx src/features/heap/**/*.ts 2>&1\",\"description\":\"Check TypeScript compilation for heap module only\"}",
+  "error": "Exit code 2\nsrc/features/heap/animations/index.ts(1,57): error TS2307: Cannot find module '@/core/interfaces' or its corresponding type declarations.\nsrc/features/heap/animations/index.ts(4,31): error TS2307: Cannot find module '@/constants/animations' or its corresponding type declarations.\nsrc/features/heap/code/index.ts(1,36): error TS2307: Cannot find module '@/core/interfaces' or its corresponding type declarations.\nsrc/features/heap/config.ts(1,38): error TS2307: Cannot find module '@/core...",
+  "timestamp": "2026-10-14T05:54:54.956Z",
+  "retry_count": 1
+}
